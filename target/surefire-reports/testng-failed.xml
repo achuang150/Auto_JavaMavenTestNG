@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [测试套件]" parallel="tests">
+  <test thread-count="5" verbose="0" name="简单测试(failed)" parallel="tests">
+    <classes>
+      <class name="test.sample.DataProviderTest">
+        <methods>
+          <include name="testAdd2" invocation-numbers="2"/>
+        </methods>
+      </class> <!-- test.sample.DataProviderTest -->
+      <class name="test.sample.DependentMethodsTest">
+        <methods>
+          <include name="testAdd2"/>
+          <include name="testAdd1"/>
+        </methods>
+      </class> <!-- test.sample.DependentMethodsTest -->
+      <class name="test.sample.DependGroupsTest">
+        <methods>
+          <include name="testAdd2"/>
+          <include name="testAdd1"/>
+          <include name="testAdd3"/>
+        </methods>
+      </class> <!-- test.sample.DependGroupsTest -->
+    </classes>
+  </test> <!-- 简单测试(failed) -->
+</suite> <!-- Failed suite [测试套件] -->

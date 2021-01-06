@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="测试套件" verbose="1" parallel="tests" thread-count="5">
+    <test name="简单测试">
+        <packages>
+            <package name="test.sample" />
+        </packages>
+    </test>
+</suite>
