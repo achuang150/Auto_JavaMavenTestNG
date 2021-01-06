@@ -8,7 +8,7 @@ public class DependGroupsTest {
 
    @Test(groups={"functest"})
     public void testAdd1(){
-        assertEquals(3+2,4);
+        assertEquals(3+2,5);
     }
 
     @Test(groups={"functest"})

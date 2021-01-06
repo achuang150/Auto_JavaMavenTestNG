@@ -2,7 +2,7 @@
 <testng-results skipped="2" failed="3" ignored="1" total="20" passed="14">
   <reporter-output>
   </reporter-output>
-  <suite name="测试套件" duration-ms="38" started-at="2020-12-31T15:52:34Z" finished-at="2020-12-31T15:52:34Z">
+  <suite name="测试套件" duration-ms="37" started-at="2021-01-06T14:38:28Z" finished-at="2021-01-06T14:38:28Z">
     <groups>
       <group name="涓�">
         <method signature="GroupsTest.testCase6()[pri:0, instance:test.sample.GroupsTest@2c6a3f77]" name="testCase6" class="test.sample.GroupsTest"/>
@@ -33,51 +33,55 @@
         <method signature="GroupsTest.testCase6()[pri:0, instance:test.sample.GroupsTest@2c6a3f77]" name="testCase6" class="test.sample.GroupsTest"/>
       </group> <!-- 姝ｅ父 -->
     </groups>
-    <test name="简单测试" duration-ms="38" started-at="2020-12-31T15:52:34Z" finished-at="2020-12-31T15:52:34Z">
+    <test name="简单测试" duration-ms="37" started-at="2021-01-06T14:38:28Z" finished-at="2021-01-06T14:38:28Z">
       <class name="test.sample.FixtureTest">
-        <test-method status="PASS" signature="testCase1()[pri:0, instance:test.sample.FixtureTest@1324409e]" name="testCase1" duration-ms="1" started-at="2020-12-31T15:52:34Z" finished-at="2020-12-31T15:52:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase1 -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.sample.FixtureTest@1324409e]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-12-31T15:52:34Z" finished-at="2020-12-31T15:52:34Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.sample.FixtureTest@1324409e]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-01-06T14:38:28Z" finished-at="2021-01-06T14:38:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.sample.FixtureTest@1324409e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-12-31T15:52:34Z" finished-at="2020-12-31T15:52:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.sample.FixtureTest@1324409e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-12-31T15:52:34Z" finished-at="2020-12-31T15:52:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testCase2()[pri:0, instance:test.sample.FixtureTest@1324409e]" name="testCase2" duration-ms="0" started-at="2020-12-31T15:52:34Z" finished-at="2020-12-31T15:52:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase2 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.sample.FixtureTest@1324409e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-12-31T15:52:34Z" finished-at="2020-12-31T15:52:34Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.sample.FixtureTest@1324409e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-01-06T14:38:28Z" finished-at="2021-01-06T14:38:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.sample.FixtureTest@1324409e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-12-31T15:52:34Z" finished-at="2020-12-31T15:52:34Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.sample.FixtureTest@1324409e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-01-06T14:38:28Z" finished-at="2021-01-06T14:38:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.sample.FixtureTest@1324409e]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-12-31T15:52:34Z" finished-at="2020-12-31T15:52:34Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.sample.FixtureTest@1324409e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-01-06T14:38:28Z" finished-at="2021-01-06T14:38:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCase1()[pri:0, instance:test.sample.FixtureTest@1324409e]" name="testCase1" duration-ms="0" started-at="2021-01-06T14:38:28Z" finished-at="2021-01-06T14:38:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.sample.FixtureTest@1324409e]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-01-06T14:38:28Z" finished-at="2021-01-06T14:38:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- test.sample.FixtureTest -->
-      <class name="test.sample.GroupsTest">
-        <test-method status="PASS" signature="testCase5()[pri:0, instance:test.sample.GroupsTest@2c6a3f77]" name="testCase5" duration-ms="0" started-at="2020-12-31T15:52:34Z" finished-at="2020-12-31T15:52:34Z">
+        <test-method status="PASS" signature="testCase2()[pri:0, instance:test.sample.FixtureTest@1324409e]" name="testCase2" duration-ms="0" started-at="2021-01-06T14:38:28Z" finished-at="2021-01-06T14:38:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCase5 -->
-        <test-method status="PASS" signature="testCase4()[pri:0, instance:test.sample.GroupsTest@2c6a3f77]" name="testCase4" duration-ms="0" started-at="2020-12-31T15:52:34Z" finished-at="2020-12-31T15:52:34Z">
+        </test-method> <!-- testCase2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.sample.FixtureTest@1324409e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-01-06T14:38:28Z" finished-at="2021-01-06T14:38:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- test.sample.FixtureTest -->
+      <class name="test.sample.GroupsTest">
+        <test-method status="PASS" signature="testCase4()[pri:0, instance:test.sample.GroupsTest@2c6a3f77]" name="testCase4" duration-ms="0" started-at="2021-01-06T14:38:28Z" finished-at="2021-01-06T14:38:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase4 -->
-        <test-method status="PASS" signature="testCase7()[pri:0, instance:test.sample.GroupsTest@2c6a3f77]" name="testCase7" duration-ms="0" started-at="2020-12-31T15:52:34Z" finished-at="2020-12-31T15:52:34Z">
+        <test-method status="PASS" signature="testCase5()[pri:0, instance:test.sample.GroupsTest@2c6a3f77]" name="testCase5" duration-ms="1" started-at="2021-01-06T14:38:28Z" finished-at="2021-01-06T14:38:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase5 -->
+        <test-method status="PASS" signature="testCase6()[pri:0, instance:test.sample.GroupsTest@2c6a3f77]" name="testCase6" duration-ms="0" started-at="2021-01-06T14:38:28Z" finished-at="2021-01-06T14:38:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase6 -->
+        <test-method status="PASS" signature="testCase7()[pri:0, instance:test.sample.GroupsTest@2c6a3f77]" name="testCase7" duration-ms="0" started-at="2021-01-06T14:38:28Z" finished-at="2021-01-06T14:38:28Z">
           <exception class="java.lang.ArithmeticException">
             <message>
               <![CDATA[/ by zero]]>
@@ -111,33 +115,29 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase7 -->
-        <test-method status="PASS" signature="testCase6()[pri:0, instance:test.sample.GroupsTest@2c6a3f77]" name="testCase6" duration-ms="0" started-at="2020-12-31T15:52:34Z" finished-at="2020-12-31T15:52:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase6 -->
       </class> <!-- test.sample.GroupsTest -->
-      <class name="test.sample.FirstTest">
-        <test-method status="PASS" signature="testCase()[pri:0, instance:test.sample.FirstTest@180bc464]" name="testCase" duration-ms="0" started-at="2020-12-31T15:52:34Z" finished-at="2020-12-31T15:52:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase -->
-      </class> <!-- test.sample.FirstTest -->
       <class name="test.sample.CaseRunTest">
-        <test-method status="PASS" signature="testCase0()[pri:0, instance:test.sample.CaseRunTest@4e04a765]" name="testCase0" duration-ms="7" started-at="2020-12-31T15:52:34Z" finished-at="2020-12-31T15:52:34Z">
+        <test-method status="PASS" signature="testCase0()[pri:0, instance:test.sample.CaseRunTest@4e04a765]" name="testCase0" duration-ms="7" started-at="2021-01-06T14:38:28Z" finished-at="2021-01-06T14:38:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase0 -->
-        <test-method status="PASS" signature="testCase1()[pri:0, instance:test.sample.CaseRunTest@4e04a765]" name="testCase1" duration-ms="0" started-at="2020-12-31T15:52:34Z" finished-at="2020-12-31T15:52:34Z">
+        <test-method status="PASS" signature="testCase1()[pri:0, instance:test.sample.CaseRunTest@4e04a765]" name="testCase1" duration-ms="1" started-at="2021-01-06T14:38:28Z" finished-at="2021-01-06T14:38:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase1 -->
-        <test-method status="PASS" signature="testCase2()[pri:0, instance:test.sample.CaseRunTest@4e04a765]" name="testCase2" duration-ms="0" started-at="2020-12-31T15:52:34Z" finished-at="2020-12-31T15:52:34Z">
+        <test-method status="PASS" signature="testCase2()[pri:0, instance:test.sample.CaseRunTest@4e04a765]" name="testCase2" duration-ms="0" started-at="2021-01-06T14:38:28Z" finished-at="2021-01-06T14:38:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase2 -->
       </class> <!-- test.sample.CaseRunTest -->
+      <class name="test.sample.FirstTest">
+        <test-method status="PASS" signature="testCase()[pri:0, instance:test.sample.FirstTest@180bc464]" name="testCase" duration-ms="0" started-at="2021-01-06T14:38:28Z" finished-at="2021-01-06T14:38:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+      </class> <!-- test.sample.FirstTest -->
       <class name="test.sample.DataProviderTest">
-        <test-method status="PASS" signature="testAdd2(int, int, int)[pri:0, instance:test.sample.DataProviderTest@783e6358]" name="testAdd2" duration-ms="0" started-at="2020-12-31T15:52:34Z" data-provider="add" finished-at="2020-12-31T15:52:34Z">
+        <test-method status="PASS" signature="testAdd2(int, int, int)[pri:0, instance:test.sample.DataProviderTest@783e6358]" name="testAdd2" duration-ms="0" started-at="2021-01-06T14:38:28Z" data-provider="add" finished-at="2021-01-06T14:38:28Z">
           <params>
             <param index="0">
               <value>
@@ -158,7 +158,28 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAdd2 -->
-        <test-method status="FAIL" signature="testAdd2(int, int, int)[pri:0, instance:test.sample.DataProviderTest@783e6358]" name="testAdd2" duration-ms="0" started-at="2020-12-31T15:52:34Z" data-provider="add" finished-at="2020-12-31T15:52:34Z">
+        <test-method status="PASS" signature="testAdd2(int, int, int)[pri:0, instance:test.sample.DataProviderTest@783e6358]" name="testAdd2" duration-ms="0" started-at="2021-01-06T14:38:28Z" data-provider="add" finished-at="2021-01-06T14:38:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd2 -->
+        <test-method status="FAIL" signature="testAdd2(int, int, int)[pri:0, instance:test.sample.DataProviderTest@783e6358]" name="testAdd2" duration-ms="0" started-at="2021-01-06T14:38:28Z" data-provider="add" finished-at="2021-01-06T14:38:28Z">
           <params>
             <param index="0">
               <value>
@@ -214,30 +235,9 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAdd2 -->
-        <test-method status="PASS" signature="testAdd2(int, int, int)[pri:0, instance:test.sample.DataProviderTest@783e6358]" name="testAdd2" duration-ms="0" started-at="2020-12-31T15:52:34Z" data-provider="add" finished-at="2020-12-31T15:52:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[5]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAdd2 -->
       </class> <!-- test.sample.DataProviderTest -->
       <class name="test.sample.DependentMethodsTest">
-        <test-method status="FAIL" signature="testAdd1()[pri:0, instance:test.sample.DependentMethodsTest@17550481]" name="testAdd1" duration-ms="0" started-at="2020-12-31T15:52:34Z" finished-at="2020-12-31T15:52:34Z">
+        <test-method status="FAIL" signature="testAdd1()[pri:0, instance:test.sample.DependentMethodsTest@17550481]" name="testAdd1" duration-ms="0" started-at="2021-01-06T14:38:28Z" finished-at="2021-01-06T14:38:28Z">
           <exception class="org.testng.TestException">
             <message>
               <![CDATA[
@@ -283,7 +283,7 @@ at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAdd1 -->
-        <test-method status="SKIP" signature="testAdd2()[pri:0, instance:test.sample.DependentMethodsTest@17550481]" name="testAdd2" duration-ms="0" started-at="2020-12-31T15:52:34Z" depends-on-methods="test.sample.DependentMethodsTest.testAdd1" finished-at="2020-12-31T15:52:34Z">
+        <test-method status="SKIP" signature="testAdd2()[pri:0, instance:test.sample.DependentMethodsTest@17550481]" name="testAdd2" duration-ms="0" started-at="2021-01-06T14:38:28Z" depends-on-methods="test.sample.DependentMethodsTest.testAdd1" finished-at="2021-01-06T14:38:28Z">
           <exception class="java.lang.Throwable">
             <message>
               <![CDATA[Method DependentMethodsTest.testAdd2()[pri:0, instance:test.sample.DependentMethodsTest@17550481] depends on not successfully finished methods]]>
@@ -311,13 +311,13 @@ at java.lang.Thread.run(Thread.java:748)
         </test-method> <!-- testAdd2 -->
       </class> <!-- test.sample.DependentMethodsTest -->
       <class name="test.sample.SecondTest">
-        <test-method status="PASS" signature="TestCase3()[pri:0, instance:test.sample.SecondTest@246ae04d]" name="TestCase3" duration-ms="1" started-at="2020-12-31T15:52:34Z" finished-at="2020-12-31T15:52:34Z">
+        <test-method status="PASS" signature="TestCase3()[pri:0, instance:test.sample.SecondTest@246ae04d]" name="TestCase3" duration-ms="1" started-at="2021-01-06T14:38:28Z" finished-at="2021-01-06T14:38:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase3 -->
       </class> <!-- test.sample.SecondTest -->
       <class name="test.sample.DependGroupsTest">
-        <test-method status="FAIL" signature="testAdd1()[pri:0, instance:test.sample.DependGroupsTest@735f7ae5]" name="testAdd1" duration-ms="0" started-at="2020-12-31T15:52:34Z" finished-at="2020-12-31T15:52:34Z">
+        <test-method status="FAIL" signature="testAdd1()[pri:0, instance:test.sample.DependGroupsTest@735f7ae5]" name="testAdd1" duration-ms="0" started-at="2021-01-06T14:38:28Z" finished-at="2021-01-06T14:38:28Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected:<5> but was:<4>]]>
@@ -356,11 +356,11 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAdd1 -->
-        <test-method status="PASS" signature="testAdd2()[pri:0, instance:test.sample.DependGroupsTest@735f7ae5]" name="testAdd2" duration-ms="0" started-at="2020-12-31T15:52:34Z" finished-at="2020-12-31T15:52:34Z">
+        <test-method status="PASS" signature="testAdd2()[pri:0, instance:test.sample.DependGroupsTest@735f7ae5]" name="testAdd2" duration-ms="0" started-at="2021-01-06T14:38:28Z" finished-at="2021-01-06T14:38:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAdd2 -->
-        <test-method status="SKIP" signature="testAdd3()[pri:0, instance:test.sample.DependGroupsTest@735f7ae5]" name="testAdd3" duration-ms="0" depends-on-groups="functest" started-at="2020-12-31T15:52:34Z" finished-at="2020-12-31T15:52:34Z">
+        <test-method status="SKIP" signature="testAdd3()[pri:0, instance:test.sample.DependGroupsTest@735f7ae5]" name="testAdd3" duration-ms="0" depends-on-groups="functest" started-at="2021-01-06T14:38:28Z" finished-at="2021-01-06T14:38:28Z">
           <exception class="java.lang.Throwable">
             <message>
               <![CDATA[Method DependGroupsTest.testAdd3()[pri:0, instance:test.sample.DependGroupsTest@735f7ae5] depends on not successfully finished methods in group "functest"]]>

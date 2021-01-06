@@ -12,7 +12,7 @@ public class DataProviderTest {
         return new Object[][]{
                 {3,2,5},
                 {2,2,4},
-                {3,3,7}
+                {3,3,6}
         };
     }
 

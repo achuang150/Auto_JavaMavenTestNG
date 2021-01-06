@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 19, Failures: 3, Errors: 0, Skipped: 2, Time elapsed: 0.404 s <<< FAILURE! - in TestSuite
+Tests run: 19, Failures: 3, Errors: 0, Skipped: 2, Time elapsed: 0.387 s <<< FAILURE! - in TestSuite
 testAdd2(test.sample.DataProviderTest)  Time elapsed: 0.005 s  <<< FAILURE!
 java.lang.AssertionError: expected:<6> but was:<7>
 	at test.sample.DataProviderTest.testAdd2(DataProviderTest.java:21)
@@ -12,7 +12,7 @@ org.testng.TestException:
 Expected exception of type class java.lang.RuntimeException but got java.lang.AssertionError: expected:<3> but was:<4>
 	at test.sample.DependentMethodsTest.testAdd1(DependentMethodsTest.java:11)
 
-testAdd1(test.sample.DependGroupsTest)  Time elapsed: 0 s  <<< FAILURE!
+testAdd1(test.sample.DependGroupsTest)  Time elapsed: 0.001 s  <<< FAILURE!
 java.lang.AssertionError: expected:<5> but was:<4>
 	at test.sample.DependGroupsTest.testAdd1(DependGroupsTest.java:11)
 
